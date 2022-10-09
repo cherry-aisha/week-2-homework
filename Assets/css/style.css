@@ -8,38 +8,39 @@
 
 .body {
   background: #ffff;
-  color: #471415;
   }
 /* Top Header Styling*/
-  header {
-    padding: 20px;
-    text-align: left;
-    background: #ffffff;
-    color: #f00f14;
-  }
-  
-.h1 {
+
+.logo {
   font-family:'Bebas neue', 'Impact', sans-serif;
+  padding: 15px;
+  font-display: 5px;
   font-size: 200%;
+  letter-spacing: 3px;
+  color:#f00f14
+  
 }
 /* Top nav bar styling*/
-.topnav {
-  float: right;
-  padding-bottom: -20px;
+
+.topnav{
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-li {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position: relative;
-  top: -20px;
-  justify-content: space-around;
-  margin-left: 25px;
-  margin-right: 25px;
-  float: right;
-  font-size: 120%;
-  color: #f00f14
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+  margin: 10px 20px;
+  position: right;
+}
+
+a {
+  font-size: 100%;
+  color: #f00f14;
+  text-decoration: none;
 }
 
 li :hover {
@@ -50,18 +51,18 @@ li :active {
   color:black
 }
 
-a {
-  font-size: 100%;
-  color: #f00f14;
-  text-decoration: none;
-}
-
 /* hero section */
 .hero {
-  height: 800px;
+  height: 500px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url("../images/background.png");
   background-size: cover;
   background-position: center;
+}
+
+#h2 {
+  font-family:'Bebas neue', 'Impact', sans-serif;
+  font-size: 200%;
+  color: #ffffff
 }
