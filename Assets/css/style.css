@@ -6,3 +6,15 @@
   font-size: 16px;
   font-family: "Montserrat", "Verdana", sans-serif;
   }
+
+  .header {
+    padding: 20px;
+    width: 100%;
+}
+
+#h1 {
+  font-size: 180%;
+  letter-spacing: 1px;
+  color: #f00f14;
+  font-family: "Bebas Neue", "Alternative Gothic", "Impact", sans-serif;
+}
