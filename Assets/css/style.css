@@ -1,4 +1,8 @@
 * {
-    background-color: aqua;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #ffff;
+  font-size: 16px;
+  font-family: "Montserrat", "Verdana", sans-serif;
   }
-  
