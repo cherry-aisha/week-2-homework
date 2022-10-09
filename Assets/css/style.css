@@ -11,13 +11,20 @@
   color: #471415;
   }
 
-  .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/background.png");
-    background-size: cover;
-    background-position: center;
+  header {
+    padding: 20px;
+    text-align: left;
+    background: #ffffff;
+    color: #f00f14;
+  }
+
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .topnav {
