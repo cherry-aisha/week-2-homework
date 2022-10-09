@@ -10,7 +10,7 @@
   background: #ffff;
   color: #471415;
   }
-
+/* Top Header Styling*/
   header {
     padding: 20px;
     text-align: left;
@@ -19,11 +19,10 @@
   }
   
 .h1 {
-  text-align: left;
   font-family:'Bebas neue', 'Impact', sans-serif;
   font-size: 200%;
 }
-
+/* Top nav bar styling*/
 .topnav {
   float: right;
   padding-bottom: -20px;
@@ -43,12 +42,21 @@ li {
   color: #f00f14
 }
 
+li :hover {
+  color:#471415
+}
+
+li :active {
+  color:black
+}
+
 a {
   font-size: 100%;
   color: #f00f14;
   text-decoration: none;
 }
 
+/* hero section */
 .hero {
   height: 800px;
   width: 100%;
