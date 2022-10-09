@@ -17,6 +17,37 @@
     background: #ffffff;
     color: #f00f14;
   }
+  
+.h1 {
+  text-align: left;
+  font-family:'Bebas neue', 'Impact', sans-serif;
+  font-size: 200%;
+}
+
+.topnav {
+  float: right;
+  padding-bottom: -20px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  top: -20px;
+  justify-content: space-around;
+  margin-left: 25px;
+  margin-right: 25px;
+  float: right;
+  font-size: 120%;
+  color: #f00f14
+}
+
+a {
+  font-size: 100%;
+  color: #f00f14;
+  text-decoration: none;
+}
 
 .hero {
   height: 800px;
@@ -26,24 +57,3 @@
   background-size: cover;
   background-position: center;
 }
-
-.topnav {
-  padding-top:15px;
-  float:right;
-  font-size:20px;
-  margin-left: 25px;
-}
-
-li {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: left 10px;
-  justify-content: space-around;
-  font-size: 20px;
-  padding-top:15px;
-  float: right;
-  font-size: 20px;
-  color: #f00f14
-}
-
