@@ -80,11 +80,20 @@ li :active {
 }
 
 .hero-p {
-  display:block
+  display:block;
   width: 100%;
   text-align: center;
   position: relative;
   top: 40%;
   font-size: 100%;
   color: white; 
+}
+
+#headshot {
+  position: absolute;
+  top: 400px;
+  right: 35%;
+  width: 300px;
+  height: 300px;
+  border-radius: 100px;
 }
