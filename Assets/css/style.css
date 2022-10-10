@@ -134,8 +134,8 @@ margin-top:20px;
 }
 
 #big.card {
-  display: flex;
-  flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 background-image: url("./assets/images/theatre.png");
 border: 10px;

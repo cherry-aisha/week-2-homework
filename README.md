@@ -58,5 +58,13 @@ Created in HTML, styling failed.
 Alt arttributes added to links.
 ```
 ![screenshot.png](https://github.com/cherry-aisha/week-1-homework/assets/images/screenshot.png)
+
+#### Deployed Page Link
+To view the page visit (https://cherry-aisha.github.io/week-2-portfolio/)
+
+#### Github repo link
+To view the repo visit [Githib](https://github.com/cherry-aisha/week-2-portfolio)
+
+[Google](https://www.google.com)
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
