@@ -92,12 +92,12 @@ li :active {
 /* About Me */
 
 #about-me {
-  width:60%;
+  width: 70%;
   margin: auto;
   text-align: center;
 }
 
-.h {
+.section-heading {
   font-size: 170%;
   font-family:'Bebas neue', 'Impact', sans-serif;
 }
@@ -108,16 +108,42 @@ margin-top:20px;
 
 /* Projects */
 
-.project-cards {
-  margin-top: 15px;
+#projects {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.site-title {
+  font-size: 120%;
+  color:#ffff;
+  font-weight: 400;
+}
+
+.site-name{
+  font-size: 110%;
+  color: #ffff;
+  font-weight: 200;
+}
+
+.cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.ticketing.card {
-background-image: url("../images/theatre.png");
+#big.card {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-between;
+background-image: url("./assets/images/theatre.png");
 border: 10px;
+padding: 50px;
+height: 300px;
 border-radius: 10px;
 border-color: #f00f14;
-margin:auto;
+margin-bottom: 20px;
+margin: auto;
 }
+
