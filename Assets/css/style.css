@@ -54,25 +54,17 @@ li :active {
 .hero {
   height: 500px;
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 120px;
   background-image: url("../images/background.png");
   background-size: cover;
   background-position: center;
 }
 
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color: white;
-}
-
 .h2 {
   width: 100%;
   text-align: center;
-  position: absolute;
-  top: 50%;
+  position: relative;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 180%;
@@ -84,16 +76,16 @@ li :active {
   width: 100%;
   text-align: center;
   position: relative;
-  top: 40%;
+  top: 35%;
   font-size: 100%;
   color: white; 
 }
 
 #headshot {
-  position: absolute;
-  top: 400px;
-  right: 35%;
-  width: 300px;
-  height: 300px;
-  border-radius: 100px;
+  display:block;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin-top: 300px;
+  margin-left: 40%;
 }
