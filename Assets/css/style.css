@@ -147,3 +147,47 @@ margin-bottom: 20px;
 margin: auto;
 }
 
+#shop-card {
+  background-image: url("./assets/images/ecommerce.png");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 10px;
+  padding: 50px;
+  height: 200px;
+  border-radius: 10px;
+  border-color: #f00f14;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+#shop-card {
+  background-image: url("./assets/images/seo.png");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 10px;
+  padding: 50px;
+  height: 200px;
+  border-radius: 10px;
+  border-color: #f00f14;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+
+#tours-card {
+  background-image: url("./assets/images/tourism.png");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 10px;
+  padding: 50px;
+  height: 200px;
+  border-radius: 10px;
+  border-color: #f00f14;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+
